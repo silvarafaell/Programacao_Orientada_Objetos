@@ -83,3 +83,17 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
      - Flexibilidade: Permite escrever código que pode trabalhar com objetos de múltiplas classes de maneira uniforme
      - Reutilização: Ajuda a evitar a repetição de código, promovendo a reutilização
      - Extensibilidade: Faz com que o código seja mais facilmente extensível a mudanças futuras e novas implementações
+       
+### Classe Abstrata
+ - O que é
+   - Uma classe abstrata é uma classe que não pode ser instanciada por si só. Em vez disso, é destinada a ser uma classe base de outras classes
+   - Ela pode conter métodos e propriedades, assim como qualquer outra classe, mas a diferença chave é que algumas (ou todas) dessas funcionalidades podem não ter uma implementação completa
+   - Características
+     - Não instanciável: Não é possível criar objetos de uma classe abstrata diretamente
+     - Implementação parcial: Pode conter métodos sem implementação (métodos abstratos) juntamente com métodos com implementação completa
+     - Subclasse obrigatória: As classes que herdam de uma classe abstrata devem fornecer implementações para todos os seus métodos abstratos
+   - Por que usar?
+     - Promover reutilização de código: Permite que as subclasses herdem comportamentos comuns e propriedades da classe base
+     - Forçar um contrato: Garante que as subclasses implementem determinados métodos, garantindo uma certa uniformidade e consistência entre as classes derivadas
+     - Encapsulamento: Permite esconder detalhes específicos de implementação, mostrando apenas o que é necessário para as subclasses
+
