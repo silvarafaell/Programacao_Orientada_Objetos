@@ -21,4 +21,16 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
      - Flexibilidade
      - Manutenção e Refatoração Simplificadas
      
-
+### Classes e Objetos
+ - O que são
+   - Dentro do universo da POO, os conceitos de classes e objetos são fundamentais
+   - Esses conceitos são bem próximos e interligados
+   - As classes podem ser vistas como um modelo para criar objetos
+   - Ela define o que os objetos terão:
+     - Atributos (frequentemente chamados de campos ou propriedades)
+     - Comportamentos (métodos)
+   - Um objeto é uma instância concreta de uma classe
+   - Instância refere-se ao processo de criação de um objeto a partir de uma classe
+   - Quando instanciamos uma classe, estamos, na verdade, reservando um espaço na memória para um novo objeto e retornando uma referência a esse objeto
+   - Se uma classe é o modelo, o objeto é a construção real baseada nele
+   - Em C#, o operador new é usado para criar uma instância (ou objeto) de uma classe
