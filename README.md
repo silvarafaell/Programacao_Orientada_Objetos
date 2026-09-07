@@ -72,3 +72,14 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
      - Simplificação: Ao abstrair, podemos reduzir a complexidade, representando entidades e processos complexos de uma forma mais simplificada
      - Reutilização: A abstração permite criar componentes genéricos que podem ser reutilizados em diferentes contextos ou sistemas
      - Flexibilidade: Ao se concentrar apenas nos detalhes relevantes, torna-se mais fácil adaptar, estender ou modificar sistemas
+     
+### Polimorfismo
+ - O que é
+   - Em POO, refere-se à capacidade de uma única função ou método funcionar para diferentes tipos de objetos
+   - Existem dois tipos principais de polimorfismo:
+     - Sobrecarga (Overload): Ocorre em tempo de compilação. Refere-se à capacidade de uma classe ter múltiplos métodos com o mesmo nome, mas com assinaturas diferentes
+     - Substituição (Override): Ocorre em tempo de execução. É a capacidade de uma classe derivada sobrescrever um método da classe base e, assim, alterar seu comportamento
+   - Benefícios
+     - Flexibilidade: Permite escrever código que pode trabalhar com objetos de múltiplas classes de maneira uniforme
+     - Reutilização: Ajuda a evitar a repetição de código, promovendo a reutilização
+     - Extensibilidade: Faz com que o código seja mais facilmente extensível a mudanças futuras e novas implementações
