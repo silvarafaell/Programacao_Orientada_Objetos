@@ -34,3 +34,15 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
    - Quando instanciamos uma classe, estamos, na verdade, reservando um espaço na memória para um novo objeto e retornando uma referência a esse objeto
    - Se uma classe é o modelo, o objeto é a construção real baseada nele
    - Em C#, o operador new é usado para criar uma instância (ou objeto) de uma classe
+
+### Herança
+ - O que é
+   - Herança é um dos quatro pilares fundamentais da Programação Orientada a Objetos, juntamente com Encapsulamento, Polimorfismo e Abstração
+   - Ela permite que novas classes adquiram propriedades e comportamentos de classes já existentes, promovendo reutilização de código e organização hierárquica.
+   - A ideia central da herança é que você pode criar uma nova classe com base em uma classe já existente
+   - A classe já existente é chamada de classe base ou classe pai, e a nova classe é referida como classe derivada ou classe filha
+   - Em C#, a herança está limitada a uma única classe
+   - Benefícios
+     - Reutilização de Código: Evita a redundância, pois permite que a classe filha reutilize atributos e métodos já definidos na classe pai
+     - Representação Hierárquica: Facilita a representação de relações do tipo "é um". Por exemplo, se dissermos que "Um Cliente é uma pessoa", a classe Cliente poderia herdar da classe Pessoa
+     - Extensibilidade: A classe derivada pode não apenas herdar características da classe base, mas também pode ter novos atributos e métodos ou sobrescrever os herdados
