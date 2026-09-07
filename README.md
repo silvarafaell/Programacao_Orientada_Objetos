@@ -64,4 +64,11 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
        - protected internal: Combinação de protected e internal; o membro pode ser acessado dentro do mesmo assembly e por classes derivadas
        - Em projetos de Empresas é recomendado usar o private set nas classes de dominio
 
-
+### Abstração
+ - O que é
+   - A abstração é a capacidade de representar conceitos complexos de uma forma simplificada, focando apenas nos aspectos relevantes para um determinado contexto
+   - Em termos de programação, isso significa modelar entidades (como classes e objetos) que capturam as características essenciais e comportamentos necessários para um sistema, enquanto detalhes internos ou complexos são ocultados ou ignorados
+   - Benefícios
+     - Simplificação: Ao abstrair, podemos reduzir a complexidade, representando entidades e processos complexos de uma forma mais simplificada
+     - Reutilização: A abstração permite criar componentes genéricos que podem ser reutilizados em diferentes contextos ou sistemas
+     - Flexibilidade: Ao se concentrar apenas nos detalhes relevantes, torna-se mais fácil adaptar, estender ou modificar sistemas
