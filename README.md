@@ -97,3 +97,13 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
      - Forçar um contrato: Garante que as subclasses implementem determinados métodos, garantindo uma certa uniformidade e consistência entre as classes derivadas
      - Encapsulamento: Permite esconder detalhes específicos de implementação, mostrando apenas o que é necessário para as subclasses
 
+### Interface
+ - O que é
+   - É uma definição que estabelece um contrato para classes ou structs
+   - Esse contrato declara que qualquer classe que implementa a interface deve fornecer uma implementação para os membros definidos pela interface
+   - Em C#, interfaces são um meio de superar a restrição de herança única
+   - Características
+     - Sem implementação: Ao contrário das classes, interfaces não fornecem implementação, apenas declarando membros que devem ser implementados pela classe que a adota
+     - Implementação múltipla: Uma única classe ou struct pode implementar várias interfaces
+     - Sem construtores: Interfaces não podem ter construtores, portanto, não podem ser instanciadas diretamente
+     - Adaptabilidade: As interfaces permitem que os sistemas sejam mais flexíveis e adaptáveis, facilitando a incorporação de mudanças
