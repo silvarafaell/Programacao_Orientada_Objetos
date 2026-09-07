@@ -62,5 +62,6 @@ Curso Programação Orientada a Objetos no nextwave(LuisDEV)
        - protected: O membro pode ser acessado dentro da mesma classe e por classes derivadas.
        - internal: O membro pode ser acessado apenas dentro do mesmo assembly
        - protected internal: Combinação de protected e internal; o membro pode ser acessado dentro do mesmo assembly e por classes derivadas
+       - Em projetos de Empresas é recomendado usar o private set nas classes de dominio
 
 
